@@ -1,0 +1,5 @@
+echo "me" > me.ssh
+sudo cat me.ssh >> ssh
+
+ssh me@192.168.122.213 < ssh
+rm -rf ssh me.ssh
